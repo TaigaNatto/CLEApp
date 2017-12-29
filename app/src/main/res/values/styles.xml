@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.Design.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">#ffffff</item><!-- 何も入力してないとき入力フォーム内のHintの色 -->
+        <item name="colorControlNormal">#ffffff</item><!-- 通常時EditTextの下線 -->
+        <item name="colorControlActivated">#eeee00</item><!-- フォーカス時の下線の色 -->
+    </style>
+
+    <!-- hintのスタイル -->
+    <style name="AppTheme.Design.TextAppearance.Design.Hint" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">12dp</item><!-- 上の方のhintの表示サイズ -->
+        <item name="android:textColor">#eeee00</item><!--  上の方のhintの表示の色 -->
+    </style>
+
+</resources>
